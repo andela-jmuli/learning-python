@@ -23,4 +23,26 @@ The "print" operator prints out one or more python items followed by a newline. 
 * s.replace('old', 'new') - returns a string where all occurences of 'old' have been replaced by 'new'  
 * s.split('delim') - returns a list of substrings seperated by the given delimeter.  
 * s.join(list) - opposite of split(), joins the elements in the given list together using the string as the delimeter. e.g. '---'.join(['aaa','bbb','ccc']) > aaa-bbb-ccc  
-* s.swapcase() - returns a copy of the string with uppercase characters converted to lowercase and vice versa
+* s.swapcase() - returns a copy of the string with uppercase characters converted to lowercase and vice versa.  
+
+
+### String Slices  
+
+The string 'slice' is a handy way to refer to sub-parts of sequences -- typically strings and lists. the slice s[start:end] is the element's beginning at start and extending up to but not including end. Suppose and example ** s = "Hello" **  
+
+s[1:4] is 'ell' -- chars starting at index 1 and extending up to but not including index 4.  
+s[1:] is 'ello' -- omitting either index defaults to the start or end of the string.  
+s[:] is 'Hello' -- omitting both always gives us a copy of the whole thing(this is the pythonic way to copy a sequence like a tring or list)  
+s[1:100] is 'ello' -- an index that is too big is truncated down to the string length.  
+
+The standard zero-based index numbers give easy access to chars near the start of the string. Python uses negative numbers to give easy access to the chars at the end of the string.  
+
+* s[-1] is 'o' -- the last char(or first from the end)  
+* s[-4] is 'e' -- 4th from the end  
+* s[:-3] is 'He' -- going up to but not including the last 3 chars  
+* s[-3:] is 'llo' -- starting with the 3rd char from the end and extending to the end of the string.  
+
+
+### if Statement  
+
+Python does not use {} to enclose blocks of code for if/loops/functions.... Instead, Python uses the colon (:) and indentation/whitespace to group statements. The boolean test for an if does not need to be in parenthesis and it can have 'elif' and 'else' clauses
