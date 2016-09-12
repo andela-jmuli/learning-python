@@ -30,10 +30,10 @@ The "print" operator prints out one or more python items followed by a newline. 
 
 The string 'slice' is a handy way to refer to sub-parts of sequences -- typically strings and lists. the slice s[start:end] is the element's beginning at start and extending up to but not including end. Suppose and example ** s = "Hello" **  
 
-s[1:4] is 'ell' -- chars starting at index 1 and extending up to but not including index 4.  
-s[1:] is 'ello' -- omitting either index defaults to the start or end of the string.  
-s[:] is 'Hello' -- omitting both always gives us a copy of the whole thing(this is the pythonic way to copy a sequence like a tring or list)  
-s[1:100] is 'ello' -- an index that is too big is truncated down to the string length.  
+* s[1:4] is 'ell' -- chars starting at index 1 and extending up to but not including index 4.  
+* s[1:] is 'ello' -- omitting either index defaults to the start or end of the string.  
+* s[:] is 'Hello' -- omitting both always gives us a copy of the whole thing(this is the pythonic way to copy a sequence like a string or list)  
+* s[1:100] is 'ello' -- an index that is too big is truncated down to the string length.  
 
 The standard zero-based index numbers give easy access to chars near the start of the string. Python uses negative numbers to give easy access to the chars at the end of the string.  
 
