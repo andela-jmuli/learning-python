@@ -23,3 +23,4 @@ The "print" operator prints out one or more python items followed by a newline. 
 * s.replace('old', 'new') - returns a string where all occurences of 'old' have been replaced by 'new'  
 * s.split('delim') - returns a list of substrings seperated by the given delimeter.  
 * s.join(list) - opposite of split(), joins the elements in the given list together using the string as the delimeter. e.g. '---'.join(['aaa','bbb','ccc']) > aaa-bbb-ccc  
+* s.swapcase() - returns a copy of the string with uppercase characters converted to lowercase and vice versa
