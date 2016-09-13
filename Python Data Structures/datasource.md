@@ -40,3 +40,39 @@ set1 - set2
 set1 ^ set2
 # set([1,2,4,5])
 ```
+
+#### Frozensets
+
+A frozenset is basically like a regular set, except it's immutable It is created using the keyword ``` frozenset```, like so:
+``` frozen = frozenset([1,2,3])```
+
+Sets are used in the following situations:
+* When you need a unique set of data
+* When your data constantly changes(sets are mutable)
+* when you need a collection that can be manipulated mathematically
+* When you don't need nested lists, sets or dictionaries in a data structure.
+
+
+### Tuples
+A tuple is represented by a number of values seperated by commas.  Unlike lists, tuples are immutable and the output is seperated by parenthesis so that nested tuples are processed correctly.
+
+Tuples are used in the following situations:
+* When you need to store data that doesn't have to change.
+* When the performance of the application is very important, in this case, use tuples when you have fixed data collections.
+* When you want to store your data in logical immutable pairs, triples.....
+
+
+### Dictionaries
+
+Dictionaries are represented by a ``` key: value ``` pair. They are basically maps or associative collections.
+
+When to use a Dictionary:
+* When you need a logical association between a ```key:value``` pair.
+* When you need fast lookup for your data, based on a custom key.
+* When your data is being constantly modified(Dictionaries are mutable).
+
+### NOTE:
+1. Every data structure has a multitude of built in methods and capabilities.
+2. Most of the time, one's data needs to adapt to the operations that one wants to perform. So if you know your object will be hashed, create an immutable structure.
+3. Always find out on the performance of the data structure you choose e.g. through documentation as most structures have multiple ways of constructing or accessing data.
+4.  While debugging, many devs find it useful to learn how to identify and connect the error they are receiving to a specific data structure as some structures may give different errors from the rest.
