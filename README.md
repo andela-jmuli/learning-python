@@ -19,7 +19,8 @@ python filename.py
 #### Resources:  
 * [HackerRank](https://www.hackerrank.com)  
 * [Google Developers Python guide](https://developers.google.com/edu/python)  
-* [secnetix.de](http://www.secnetix.de/olli/Python/lambda_functions.hawk)  
+* [secnetix.de](http://www.secnetix.de/olli/Python/lambda_functions.hawk) 
+* [SQL Alchemy](sqlalchemy.org)
 
 
 Credits: [Joseph Muli](https://github.com/andela-jmuli)
