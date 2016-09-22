@@ -1,5 +1,5 @@
 ### An SQLAlchemy layout tutorial
-#### This doc uses the file [customers_db.py] as a reference
+#### This doc uses the file [customers_db.py](https://github.com/andela-jmuli/learning-python/blob/master/Databases/customers_db.py) as a reference
 The first step in writing SQL Alchemy code is opening a connection to the database you are gonna be using. This is done by creating an SQL Engine object, which knows how to talk to a particular type of database.
 
 ``` db = create_engine('sqlite', opts={'filename': 'customers.db'}) ```
