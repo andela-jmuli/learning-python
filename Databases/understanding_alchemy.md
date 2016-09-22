@@ -6,6 +6,8 @@ The first step in writing SQL Alchemy code is opening a connection to the databa
 
 The Engine object also doubles as a connection object, creating a pool of database connections and reusing them automatically as needed. *NOTE* Most of the time you don't even need to think about the db connections, just use the SQLEngine object that **create_engine()** returns.
 
+
+
 SQLAlchemy has tried as much as possible to redirect users from writing raw SQL thus calling the **execute()** method allows one to execute queries as desired. The **INSERT** statement enables one to manipulate a specific table-space with reference, i.e:
 
 ```i = users.insert() ```
