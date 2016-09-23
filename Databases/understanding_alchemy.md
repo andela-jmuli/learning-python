@@ -17,3 +17,9 @@ SQLAlchemy has tried as much as possible to redirect users from writing raw SQL 
 
 When an ```i.execute() ``` is run, SQLAlchemy will generate the appropriate *INSERT INTO users VALUES (...)* statement for the values we pass into execute().
 NOTE: One can also pass parameters to execute() as 'what should be inserted to specified tablename'
+
+### Metadata and Type APIs
+
+The metadata and type systems describe the db schema in an RDBMS-independent manner.
+A metadata obj holds all the information about the tables, columns, types, foreign keys, indexes and sequences that make up a db structure.
+The metadata obj can be used to create database tables, to do this bind the ``` metadata ``` to an engine and call its ``` create_all ``` method.
