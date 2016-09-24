@@ -23,3 +23,8 @@ NOTE: One can also pass parameters to execute() as 'what should be inserted to s
 The metadata and type systems describe the db schema in an RDBMS-independent manner.
 A metadata obj holds all the information about the tables, columns, types, foreign keys, indexes and sequences that make up a db structure.
 The metadata obj can be used to create database tables, to do this bind the ``` metadata ``` to an engine and call its ``` create_all ``` method.
+
+
+### Declarative_base()
+
+SQLAlchemy object-relational config involves the combination of Table, mapper() and class objects to define a mapped class. *declerative* allows all three to be expressed at once within the class declaration.
